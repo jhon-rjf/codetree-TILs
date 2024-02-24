@@ -7,6 +7,7 @@ public class Main {
         int b = sc.nextInt();
         System.out.print(a+" ");
         while(a<b){
+            if(a<b){
             if(a%2==1){
                 a = a * 2;
                 System.out.print(a+" ");
@@ -15,5 +16,6 @@ public class Main {
                  System.out.print(a+" ");
             }
         }
+    }
     }
 }

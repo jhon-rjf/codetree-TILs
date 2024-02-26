@@ -14,6 +14,7 @@ public class Main {
             }else if(i%3==0 && i%12!=0 && date>3 ){
                 hall_cnt++;
             }else if(i%12==0 && date>12){
+                System.out.print(i);
                 toilet_cnt++;
             }
         }

@@ -9,11 +9,11 @@ public class Main {
         int toilet_cnt = 0;
 
         for(int i = 0; i<date; i++){
-            if(i%2==0 && i%3!=0 && i%12!=0 && date>2 && i>1){
+            if(i%2==0 && i%3!=0 && i%12!=0 && date>2 && i>=1){
                 c_room_cnt++;
-            }else if(i%3==0 && i%12!=0 && date>3 && i>1){
+            }else if(i%3==0 && i%12!=0 && date>3 && i>=1){
                 hall_cnt++;
-            }else if(i%12==0 && date>12 && i>1 ){
+            }else if(i%12==0 && date>12 && i>=1 ){
                 toilet_cnt++;
             }
         }

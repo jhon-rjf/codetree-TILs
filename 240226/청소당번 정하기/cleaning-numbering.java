@@ -8,7 +8,7 @@ public class Main {
         int hall_cnt = 0;
         int toilet_cnt = 0;
 
-        for(int i = 0; i<date; i++){
+        for(int i = 0; i<=date; i++){
             if(i%2==0 && i%3!=0 && i%12!=0 && date>1){
                 c_room_cnt++;
             }else if(i%3==0 && i%12!=0 && date>3 && i>=1){

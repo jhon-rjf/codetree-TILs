@@ -11,7 +11,7 @@ public class Main {
         for(int i = 0; i<date; i++){
             if(i%2==0 && i%3!=0 && i%12!=0 && date>2){
                 c_room_cnt++;
-            }else if(i%3!=0 && i%12!=0 && date>3){
+            }else if(i%3==0 && i%12!=0 && date>3 ){
                 hall_cnt++;
             }else if(i%12==0 && date>12){
                 toilet_cnt++;

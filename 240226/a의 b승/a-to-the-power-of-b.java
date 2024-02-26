@@ -5,10 +5,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int sum = 0;
-        for(int i = 0; i<=b; i++){
-            sum = sum + (a*i);
+        int sum = 1;
+        for(int i = 1; i<=b; i++){
+            sum = sum * a;
         }
-        System.out.print(sum+a);
+        System.out.print(sum);
    }
 }

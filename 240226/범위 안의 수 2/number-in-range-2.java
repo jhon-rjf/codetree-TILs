@@ -7,6 +7,10 @@ public class Main {
     double count = 0.0;
     for(int i = 0; i<10; i++){
         int temp = sc.nextInt();
+        if(temp<0 || temp>200){
+            temp=0;
+            count--;
+        }
         sum = sum + temp;
         count++;
     }

@@ -5,16 +5,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int count = 1;
-        double divide = n;
-        for(double i = 1.0; i<=n; i++){
+        int divide = n;
+        for(int i = 1; i<=n; i++){
+            count++;
              divide = divide/i;
             if(divide>1){
-                count++;
                 continue;
             }else if(divide <=1){
+                System.out.print(i);
                 break;
+                
             }
         }
-        System.out.print(count);
     }
 }

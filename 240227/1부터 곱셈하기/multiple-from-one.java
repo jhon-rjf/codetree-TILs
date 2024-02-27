@@ -5,15 +5,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int sum = 1;
-        for(int i = 1; i<=10; i++){
-            if(sum < n){
-                 sum *= i;
-            }else if(sum>=n){
-                System.out.print(i-1);
+        int count = 1;
+        for(; count<=10; count++){
+            if(sum>=n){
                 break;
             }
+            sum *= count;
+
            
             
         }
+        System.out.print(count-1);
     }
 }

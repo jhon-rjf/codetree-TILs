@@ -9,10 +9,9 @@ public class Main {
 
         while(true){
             int age = sc.nextInt();
-            if(age>=30){
+            if(age>=30 || age<20){
                 avg = sum/count;
-                double output = (Math.round(avg*1000)/1000.0);
-                System.out.println(String.format("%.2f", output));
+                System.out.println(String.format("%.2f", avg));
                 break;
             }
             sum += age;

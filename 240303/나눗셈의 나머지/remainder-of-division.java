@@ -11,13 +11,15 @@ public class Main {
         }
         int count= 0;
 
-        for(; a>0; count++){
+        for(; a>1; count++){
             nam[count]= a%b;
             a = a/b;
+           
             namcount[nam[count]]++;   
         }
         int sum = 0;
         for(int i = 0; i<10; i++){
+          
             sum = sum + namcount[i] * namcount[i];
             
 

@@ -2,7 +2,7 @@
 
 int main() {
 double n = 0;
-scanf("%f",&n);
+scanf("%lf",&n);
 printf("%.2lf",n);
     return 0;
 }

@@ -5,8 +5,8 @@ int main() {
     int b = 5;
     int temp = 0;
     temp = a;
-    b = a;
-    a = temp;
+    a = b;
+    b = temp;
     printf("%d\n%d",a,b);
     return 0;
 }
